@@ -298,33 +298,33 @@ with bot:
             builder = event.builder
             result = None
             query = event.text
-            if event.query.user_id == uid and query.startswith("Unknown"):
+            if event.query.user_id == uid and query.startswith("@akmjfeels"):
                 rev_text = query[::-1]
                 buttons = paginate_help(0, dugmeler, "helpme")
                 result = builder.article(
                     f"Please Use Only With .help Command",
                     text="{}\nTotal loaded modules: {}".format(
-                        "UserBot\n\Teraplah Hidup Meski Tidak Bermanfaat", len(dugmeler)),
+                        "UserBot by #Unknown\n\Tetaplah Hidup Walau Tidak Berguna", len(dugmeler)),
                     buttons=buttons,
                     link_preview=False
                 )
             elif query.startswith("tb_btn"):
                 result = builder.article(
-                    "© Unknown",
-                    text=f"Unknown",
+                    "© @akmjfeels",
+                    text=f"@akmjfeels",
                     buttons=[],
                     link_preview=True
                 )
             else:
                 result = builder.article(
-                    "© Unknown",
-                    text="""Unknown is for you!
+                    "© @akmjfeels",
+                    text="""@akmjfeels is for you!
 You can convert your account to bot and use them. Remember, you can't manage someone else's bot! All installation details are explained from GitHub address below.""",
                     buttons=[
-                        [custom.Button.url("Follow Channel", "unknown"), custom.Button.url(
-                            "Build by", "UserBot")],
+                        [custom.Button.url("Follow Channel", "https://t.me/akmjfeels"), custom.Button.url(
+                            "Build by", "https://t.me/NGGDCLXVI")],
                         [custom.Button.url(
-                            "GitHub", "Teraplah Hidup Meski Tidak Bermanfaat")]
+                            "GitHub", "https://github.com/AnggaR96s/DCLXVI")]
                     ],
                     link_preview=False
                 )
@@ -412,75 +412,3 @@ LASTMSG = {}
 ENABLE_KILLME = True
 ISAFK = False
 AFKREASON = None
-ZALG_LIST = [[
-    "̖",
-    " ̗",
-    " ̘",
-    " ̙",
-    " ̜",
-    " ̝",
-    " ̞",
-    " ̟",
-    " ̠",
-    " ̤",
-    " ̥",
-    " ̦",
-    " ̩",
-    " ̪",
-    " ̫",
-    " ̬",
-    " ̭",
-    " ̮",
-    " ̯",
-    " ̰",
-    " ̱",
-    " ̲",
-    " ̳",
-    " ̹",
-    " ̺",
-    " ̻",
-    " ̼",
-    " ͅ",
-    " ͇",
-    " ͈",
-    " ͉",
-    " ͍",
-    " ͎",
-    " ͓",
-    " ͔",
-    " ͕",
-    " ͖",
-    " ͙",
-    " ͚",
-    " ",
-],
-    [
-    " ̍", " ̎", " ̄", " ̅", " ̿", " ̑", " ̆", " ̐", " ͒", " ͗",
-    " ͑", " ̇", " ̈", " ̊", " ͂", " ̓", " ̈́", " ͊", " ͋", " ͌",
-    " ̃", " ̂", " ̌", " ͐", " ́", " ̋", " ̏", " ̽", " ̉", " ͣ",
-    " ͤ", " ͥ", " ͦ", " ͧ", " ͨ", " ͩ", " ͪ", " ͫ", " ͬ", " ͭ",
-    " ͮ", " ͯ", " ̾", " ͛", " ͆", " ̚"
-],
-    [
-    " ̕",
-    " ̛",
-    " ̀",
-    " ́",
-    " ͘",
-    " ̡",
-    " ̢",
-    " ̧",
-    " ̨",
-    " ̴",
-    " ̵",
-    " ̶",
-    " ͜",
-    " ͝",
-    " ͞",
-    " ͟",
-    " ͠",
-    " ͢",
-    " ̸",
-    " ̷",
-    " ͡",
-]]
