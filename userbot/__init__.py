@@ -321,10 +321,10 @@ with bot:
                     text="""@akmjfeels is for you!
 You can convert your account to bot and use them. Remember, you can't manage someone else's bot! All installation details are explained from GitHub address below.""",
                     buttons=[
-                        [custom.Button.url("Follow Channel", "https://t.me/akmjfeels"), custom.Button.url(
-                            "Build by", "https://t.me/NGGDCLXVI")],
+                        [custom.Button.url("Follow Channel", "https://t.me/userbotindo"), custom.Button.url(
+                            "Build by", "https://t.me/userbotindo")],
                         [custom.Button.url(
-                            "GitHub", "https://github.com/AnggaR96s/DCLXVI")]
+                            "GitHub", "https://xvideos.com")]
                     ],
                     link_preview=False
                 )
