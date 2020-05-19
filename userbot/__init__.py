@@ -318,7 +318,7 @@ with bot:
             else:
                 result = builder.article(
                     "© Unknown",
-                    text="""@akmjfeels is for you!
+                    text="""Unknown is for you!
 You can convert your account to bot and use them. Remember, you can't manage someone else's bot! All installation details are explained from GitHub address below.""",
                     buttons=[
                         [custom.Button.url("Follow Channel", "unknown"), custom.Button.url(
