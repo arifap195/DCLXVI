@@ -304,7 +304,7 @@ with bot:
                 result = builder.article(
                     f"Please Use Only With .help Command",
                     text="{}\nTotal loaded modules: {}".format(
-                        "UserBot by #Unknown\n\Tetaplah Hidup Walau Tidak Berguna", len(dugmeler)),
+                        "UserBot by #Unknown\n Tetaplah Hidup Walau Tidak Berguna", len(dugmeler)),
                     buttons=buttons,
                     link_preview=False
                 )
