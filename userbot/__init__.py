@@ -313,7 +313,7 @@ with bot:
                     "© Unknown",
                     text=f"Unknown",
                     buttons=[],
-                    link_preview=False
+                    link_preview=True
                 )
             else:
                 result = builder.article(
