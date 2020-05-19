@@ -298,7 +298,7 @@ with bot:
             builder = event.builder
             result = None
             query = event.text
-            if event.query.user_id == uid and query.startswith("@akmjfeels"):
+            if event.query.user_id == uid and query.startswith("Unknown"):
                 rev_text = query[::-1]
                 buttons = paginate_help(0, dugmeler, "helpme")
                 result = builder.article(
@@ -310,21 +310,21 @@ with bot:
                 )
             elif query.startswith("tb_btn"):
                 result = builder.article(
-                    "© @akmjfeels",
-                    text=f"@akmjfeels",
+                    "© Unknown",
+                    text=f"Unknown",
                     buttons=[],
-                    link_preview=True
+                    link_preview=False
                 )
             else:
                 result = builder.article(
-                    "© @akmjfeels",
+                    "© Unknown",
                     text="""@akmjfeels is for you!
 You can convert your account to bot and use them. Remember, you can't manage someone else's bot! All installation details are explained from GitHub address below.""",
                     buttons=[
-                        [custom.Button.url("Follow Channel", "https://t.me/akmjfeels"), custom.Button.url(
-                            "Build by", "https://t.me/NGGDCLXVI")],
+                        [custom.Button.url("Follow Channel", "unknown"), custom.Button.url(
+                            "Build by", "UserBot")],
                         [custom.Button.url(
-                            "GitHub", "https://github.com/AnggaR96s/DCLXVI")]
+                            "GitHub", "Teraplah Hidup Meski Tidak Bermanfaat")]
                     ],
                     link_preview=False
                 )
